@@ -10,15 +10,6 @@
   </head>
 
   <body>
-    <nav>
-      <ul>
-        {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
 
     <header>
       <div class="container">
@@ -28,6 +19,16 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
+    
+    <nav>
+      <ul>
+        {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
 
     <div class="container">
       <section id="main_content">
