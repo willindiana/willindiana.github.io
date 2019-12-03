@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -13,3 +11,7 @@ ul {
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
+
+@import "{{ site.theme }}";
+
+
