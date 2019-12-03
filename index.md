@@ -2,6 +2,7 @@
 title: Welcome to Goof
 layout: default
 ---
+
 # root/
 
 ##
