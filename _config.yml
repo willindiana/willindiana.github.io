@@ -1,3 +1,10 @@
 theme: jekyll-theme-hacker
 title: Will's Personal Blog
 description: Feel free to bookmark and keep up to date on my most current projects
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
