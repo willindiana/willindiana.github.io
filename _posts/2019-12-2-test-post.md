@@ -1,5 +1,5 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Test Post!"
 ---
 # This is a Test Post
